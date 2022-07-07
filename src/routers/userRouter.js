@@ -7,7 +7,7 @@ const userRouter = express.Router();
 
 userRouter.route('/').get((req, res) => {
   const url =
-    'mongodb+srv://dbUser:7SMwFS96AyJWtPKq@globomantics.ywz2mwf.mongodb.net/?retryWrites=true&w=majority';
+    'mongodb+srv://dbUser:sa@globomantics.ywz2mwf.mongodb.net/?retryWrites=true&w=majority';
   const dbName = 'globomantics';
 
   (async function mongo() {
