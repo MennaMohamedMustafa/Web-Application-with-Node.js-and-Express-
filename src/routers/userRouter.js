@@ -18,13 +18,23 @@ userRouter.route('/').get((req, res) => {
 
       const db = client.db(dbName);
 
-      const response = await db.collection('users').insertMany(users);
-      res.json(response);
+      // const response = await db.collection('users').insertMany(users);
+      // res.json(response);
+      const users = await db.collection('users').find().toArray();
+
+      res.render('users', { users });
     } catch (error) {
       debug(error.stack);
     }
     client.close();
   })();
+});
+
+userRouter.route('/:id').get((req, res) => {
+  const id = req.params.id;
+  res.render('user', {
+    user: users[id],
+  });
 });
 
 module.exports = userRouter;

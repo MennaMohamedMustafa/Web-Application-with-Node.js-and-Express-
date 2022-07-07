@@ -23,7 +23,7 @@ app.use('/sessions', sessionsRouter);
 app.use('/products', productsRouter);
 app.use('/home', homeRouter);
 app.use('/admin', adminRouter);
-app.use('/user', userRouter);
+app.use('/users', userRouter);
 
 
 app.get('/', (req, res) => {

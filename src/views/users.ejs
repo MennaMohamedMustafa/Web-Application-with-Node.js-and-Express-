@@ -150,13 +150,13 @@
     <section class="sec_include">
       <div class="container">
 
-        <% products.map((product, index)=>{%>
+        <% users.map((user, index)=>{%>
             <div class="col-xs-12 col-sm-4 col-md-4 adj_text">
 
-              <h3><%=product.name%></h3>
-              <p><%=product.describtion%></p>
+              <h3><%=user.name%></h3>
+              <p><%=user.email%></p>
               
-                <a href="/products/<%=index%>" class="btn-oval">Learn More</a>
+                <a href="/users/<%=index%>" class="btn-oval">Learn More</a>
 
             </div>
         <% }) %>
