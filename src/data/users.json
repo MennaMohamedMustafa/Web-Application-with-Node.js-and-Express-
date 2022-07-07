@@ -1,0 +1,62 @@
+[
+    {
+       "id":1,
+       "name":"  User 1",
+       "email":"User1@outlook.com",
+       "password":"123"
+    },
+    {
+      "id":2,
+      "name":"User 2",
+      "email":"User2@outlook.com",
+      "password":"456"
+   },
+   {
+      "id":3,
+      "name":"User 3",
+      "email":"User3@outlook.com",
+      "password":"123"
+   },
+   {
+      "id":4,
+      "name":"User 4",
+      "email":"User4@outlook.com",
+      "password":"456"
+   },
+   {
+      "id":5,
+      "name":"User 5",
+      "email":"User5@outlook.com",
+      "password":"000"
+   },
+   {
+      "id":6,
+      "name":"User 6",
+      "email":"User6@outlook.com",
+      "password":"000"
+   },
+   {
+      "id":7,
+      "name":"User 7",
+      "email":"User7@outlook.com",
+      "password":"777"
+   },
+   {
+      "id":8,
+      "name":"User 8",
+      "email":"User8@outlook.com",
+      "password":"888"
+   },
+   {
+      "id":9,
+      "name":"User 9",
+      "email":"User9@outlook.com",
+      "password":"999"
+   },
+   {
+      "id":10,
+      "name":"User 10",
+      "email":"User10@outlook.com",
+      "password":"1010"
+   }
+   ]
